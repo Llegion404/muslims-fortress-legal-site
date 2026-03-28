@@ -9,6 +9,7 @@ Static legal pages for Play Console:
 ## Quick deploy options
 
 ### Option A: GitHub Pages (recommended)
+
 1. Create a new GitHub repo, e.g. `muslims-fortress-legal-site`.
 2. Push this folder as the repo root.
 3. In GitHub: `Settings -> Pages -> Build and deployment`.
@@ -17,11 +18,12 @@ Static legal pages for Play Console:
 6. Use the published URLs in Play Console and in-app links.
 
 ### Option B: Any static host
+
 Upload all files as-is to Netlify, Cloudflare Pages, Vercel static, S3 static hosting, etc.
 
 ## Required edits before publishing
 
-- Replace `support@muslimsfortress.com` if needed.
+- Replace `llegion40404@gmail.com` if needed.
 - Replace `Lapidary` if legal entity name should be different.
 - Set your final base URL in app code:
   - `app/src/main/java/com/muslimsfortress/ui/screens/settings/SettingsScreen.kt`
